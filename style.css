@@ -48,11 +48,11 @@ body {
 }
 
 #dynamic-roles {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
     color: #ff004f;
     border-right: 2px solid #ff004f;
-    padding-right: 5px;
+    padding-right: 6px;
     white-space: nowrap;
     overflow: hidden;
 }
