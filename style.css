@@ -329,6 +329,22 @@ nav ul li a:hover::after {
     color: #ff004f;
     font-size: 1.5rem;
 }
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #ff004f;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #e60047;
+}
 
 .contact-details a {
     color: #ff004f;
