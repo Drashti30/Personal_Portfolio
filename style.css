@@ -201,27 +201,7 @@ nav ul li a:hover::after {
     color: #ff004f;
     font-weight: 600;
 }
-.project-btn {
-  display: inline-block;
-  margin-top: 5px;
-  margin-right: 10px;
-  padding: 8px 15px;
-  background: #ff004f;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9rem;
-  transition: background 0.3s ease;
-}
 
-.project-btn:hover {
-  background: #e60047;
-}
-.tab-contents ul li span {
-  color: #ff004f;
-  font-weight: 600;
-}
 
 
 /* Tabs */
@@ -450,16 +430,7 @@ nav ul li a:hover::after {
         font-size: 2rem;
     }
 }
-@media only screen and (max-width: 768px) {
-  .tab-titles {
-    flex-direction: column;
-    gap: 10px;
-  }
 
-  .tab-links {
-    font-size: 1rem;
-  }
-}
 
 @media only screen and (max-width: 768px) {
     .menu-icon {
