@@ -160,18 +160,18 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-    flex-basis: 45%;
+    flex-basis: 48%;
+}
+.about-col-2 {
+    flex-basis: 48%;
 }
 
 .about-col-1 img {
     width: 100%;
-    max-width: 500px;
+    height: auto;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
-}
-
-.about-col-2 {
-    flex-basis: 50%;
+    display: block;
 }
 
 #about p {
@@ -461,3 +461,4 @@ nav ul li a:hover::after {
         flex-basis: 100%;
     }
 }
+
