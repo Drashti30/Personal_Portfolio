@@ -1,4 +1,4 @@
-/* ========== GENERAL RESET ========== */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ========== HEADER ========== */
+/* Header Section */
 #header {
     width: 100%;
     height: 100vh;
@@ -58,7 +58,7 @@ body {
     overflow: hidden;
 }
 
-/* ========== NAVIGATION ========== */
+/* Navigation */
 nav {
     display: flex;
     align-items: center;
@@ -114,7 +114,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-/* ========== SIDE MENU ========== */
+/* Side Menu */
 #sidemenu {
     position: fixed;
     right: -200px;
@@ -144,7 +144,7 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 
-/* ========== ABOUT SECTION ========== */
+/* About Section */
 #about {
     padding: 100px 0;
     background-color: #1a1a1a;
@@ -187,12 +187,28 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
 }
 
-/* TAB NAVIGATION */
+.about-highlights {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.about-highlights li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.about-highlights strong {
+    color: #ff004f;
+    font-weight: 600;
+}
+
+
+
+/* Tabs */
 .tab-titles {
     display: flex;
     gap: 20px;
     margin-top: 30px;
-    flex-wrap: wrap;
 }
 
 .tab-links {
@@ -220,7 +236,6 @@ nav ul li a:hover::after {
     left: 0;
 }
 
-/* TAB CONTENTS */
 .tab-contents {
     display: none;
     margin-top: 20px;
@@ -230,14 +245,9 @@ nav ul li a:hover::after {
     display: block;
 }
 
-.tab-contents ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
 .tab-contents ul li {
     font-size: 1.2rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .tab-contents ul li span {
@@ -245,30 +255,22 @@ nav ul li a:hover::after {
     font-weight: 600;
 }
 
-/* ========== PORTFOLIO SECTION ========== */
+/* Portfolio */
 #portfolio {
-    padding: 80px 20px;
+    padding: 60px 20px;
     background-color: #000;
     color: #fff;
     text-align: center;
 }
 
-#portfolio h1.sub-title {
-    text-align: center;
-}
-
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 40px;
-    padding: 0 20px;
-    justify-items: center;
 }
 
 .project {
-    width: 100%;
-    max-width: 350px;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
@@ -308,7 +310,7 @@ nav ul li a:hover::after {
     opacity: 1;
 }
 
-/* ========== CONTACT SECTION ========== */
+/* Contact */
 #contact {
     padding: 60px 20px;
     background: linear-gradient(145deg, #ffffff, #f8f9fa);
@@ -329,6 +331,22 @@ nav ul li a:hover::after {
     color: #ff004f;
     font-size: 1.5rem;
 }
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #ff004f;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #e60047;
+}
 
 .contact-details a {
     color: #ff004f;
@@ -339,28 +357,25 @@ nav ul li a:hover::after {
     text-decoration: underline;
 }
 
-/* ========== BUTTON STYLES ========== */
-.project-btn,
+/* Resume Button */
 .resume-download .btn {
     display: inline-block;
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 10px 20px;
+    margin-top: 20px;
+    padding: 12px 40px;
     background: #ff004f;
-    color: white;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
-.project-btn:hover,
 .resume-download .btn:hover {
     background: #e60047;
 }
 
-/* ========== FOOTER ========== */
+/* Footer */
 #footer {
     background: #000;
     color: #fff;
@@ -386,7 +401,7 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 
-/* ========== BACK TO TOP BUTTON ========== */
+/* Back to Top Button */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -406,7 +421,7 @@ nav ul li a:hover::after {
     background: #e60047;
 }
 
-/* ========== RESPONSIVE STYLES ========== */
+/* Responsive Styles */
 @media only screen and (max-width: 1024px) {
     .header-text h1 {
         font-size: 3rem;
@@ -415,6 +430,7 @@ nav ul li a:hover::after {
         font-size: 2rem;
     }
 }
+
 
 @media only screen and (max-width: 768px) {
     .menu-icon {
@@ -433,34 +449,15 @@ nav ul li a:hover::after {
         display: flex;
     }
 
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-col-1,
-    .about-col-2 {
-        flex-basis: 100%;
-        text-align: center;
-    }
-
-    .about-col-1 img {
-        width: 90%;
-        max-width: 350px;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .tab-titles {
-        justify-content: center;
-    }
-
-    .tab-contents {
-        text-align: left;
-    }
-
     .work-list {
         grid-template-columns: 1fr;
-        padding: 0 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
     }
 }
