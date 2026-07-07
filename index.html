@@ -7,462 +7,420 @@
     <title>Drashti Mehta | Data Scientist Portfolio</title>
 
     <meta name="title" content="Drashti Mehta | Data Scientist Portfolio" />
-    <meta
-        name="description"
-        content="Portfolio of Drashti Mehta — Data Scientist specializing in machine learning, LLM pipelines, analytics, and business intelligence."
-    />
-    <meta
-        name="keywords"
-        content="Drashti Mehta, Data Scientist, Machine Learning Engineer, NLP, LLM, Portfolio, Python, SQL, Tableau, Power BI, AWS"
-    />
+    <meta name="description" content="Portfolio of Drashti Mehta — Data Scientist specializing in machine learning, LLM pipelines, analytics, and business intelligence." />
+    <meta name="keywords" content="Drashti Mehta, Data Scientist, Machine Learning Engineer, NLP, LLM, Portfolio, Python, SQL, Tableau, Power BI, AWS" />
     <meta name="author" content="Drashti Mehta" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://drashti-mehta-portfolio.netlify.app/" />
     <meta property="og:title" content="Drashti Mehta | Data Scientist Portfolio" />
-    <meta
-        property="og:description"
-        content="Data Scientist with experience in machine learning, LLM pipelines, analytics, and production-ready AI solutions."
-    />
+    <meta property="og:description" content="Data Scientist with experience in machine learning, LLM pipelines, analytics, and production-ready AI solutions." />
     <meta property="og:image" content="https://drashti-mehta-portfolio.netlify.app/images/about_1.jpg" />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://drashti-mehta-portfolio.netlify.app/" />
-    <meta property="twitter:title" content="Drashti Mehta | Data Scientist Portfolio" />
-    <meta
-        property="twitter:description"
-        content="Explore projects, experience, and technical expertise across data science, LLMs, analytics, and software development."
-    />
-    <meta property="twitter:image" content="https://drashti-mehta-portfolio.netlify.app/images/about_1.jpg" />
 
     <link rel="icon" href="images/user.png" type="image/png" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Header / Hero -->
-    <header id="header">
-        <div class="hero-overlay"></div>
-        <div class="container">
-            <nav>
-                <a href="#header" class="brand">DM</a>
 
-                <ul id="sidemenu">
-                    <li><a href="#header" onclick="closemenu()">Home</a></li>
-                    <li><a href="#about" onclick="closemenu()">About</a></li>
-                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
-                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
-                    <i class="fas fa-times close-icon" onclick="closemenu()"></i>
-                </ul>
+<header id="header">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <nav>
+            <a href="#header" class="brand">DM</a>
 
-                <i class="fas fa-bars menu-icon" onclick="openmenu()"></i>
-            </nav>
+            <ul id="sidemenu">
+                <li><a href="#header" onclick="closemenu()">Home</a></li>
+                <li><a href="#about" onclick="closemenu()">About</a></li>
+                <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                <i class="fas fa-times close-icon" onclick="closemenu()"></i>
+            </ul>
 
-            <div class="header-text">
-                <p class="hero-kicker">Data Scientist • Machine Learning Engineer • LLM & NLP Specialist</p>
-                <h1>Drashti Miteshkumar Mehta</h1>
-                <p class="hero-subtitle">
-                    Building scalable machine learning, analytics, and AI solutions that turn complex data into measurable business impact.
-                </p>
-                <p class="hero-rotating">
-                    <span id="dynamic-roles"></span>
-                </p>
+            <i class="fas fa-bars menu-icon" onclick="openmenu()"></i>
+        </nav>
 
-                <div class="hero-actions">
-                    <a href="#portfolio" class="btn btn-primary">View Projects</a>
-                    <a href="images/RESUME_DRASHTI_MEHTA.pdf" download class="btn btn-secondary">Download Resume</a>
-                </div>
+        <div class="header-text">
+            <p class="hero-kicker">Data Scientist • Machine Learning Engineer • AI & Analytics</p>
+            <h1>Drashti Miteshkumar Mehta</h1>
+
+            <p class="hero-subtitle">
+                Building intelligent data solutions that turn complex information into clear insights,
+                better decisions, and meaningful business impact.
+            </p>
+
+            <p class="hero-rotating">
+                <span id="dynamic-roles"></span>
+            </p>
+
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary">View Projects</a>
+                <a href="images/RESUME_DRASHTI_MEHTA.pdf" download class="btn btn-secondary">Download Resume</a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- About -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/about_1.jpg" alt="Profile picture of Drashti Mehta" />
-                </div>
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about_1.jpg" alt="Profile picture of Drashti Mehta" />
+            </div>
 
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
 
-                        <h2>Hi, I'm <span>Drashti Mehta</span>.</h2>
+                <h2>Hi, I'm <span>Drashti Mehta</span>.</h2>
 
-                            <p>
-                                I enjoy turning messy, complex data into clear insights that help people make better decisions.
-                                What started as a curiosity about finding patterns in data has grown into a passion for building
-                                intelligent systems that combine analytics, machine learning, and AI to solve real-world problems.
-                            </p>
-                        
-                            <p>
-                                Over the past few years, I've worked on projects ranging from predictive analytics and business
-                                intelligence to large language models, healthcare AI, and forecasting. What excites me most
-                                isn't just building models—it's understanding the business problem first, asking the right
-                                questions, and creating solutions that people can actually use.
-                            </p>
-                        
-                            <p>
-                                I enjoy working across the entire analytics lifecycle, from exploring raw data and engineering
-                                features to developing models, designing dashboards, and communicating insights to both technical
-                                and non-technical stakeholders. Every project is an opportunity to learn something new, whether
-                                it's a different industry, a new technology, or a better way to approach a problem.
-                            </p>
-                        
-                            <p>
-                                Outside of work, I enjoy exploring the latest developments in AI, experimenting with new tools,
-                                contributing to personal projects, and continuously expanding my skills. I believe the best data
-                                scientists combine technical expertise with curiosity, creativity, and a genuine desire to solve
-                                meaningful problems.
-                            </p>
-                        
-                            <p class="about-closing">
-                                I'm always excited to collaborate on innovative work in
-                                <strong>Data Science</strong>,
-                                <strong>Machine Learning</strong>,
-                                <strong>Generative AI</strong>, and
-                                <strong>Analytics</strong>.
-                            </p>
+                <p>
+                    I enjoy turning messy, complex data into clear insights that help people make better decisions.
+                    What started as a curiosity about finding patterns in data has grown into a passion for building
+                    intelligent systems that combine analytics, machine learning, and AI to solve real-world problems.
+                </p>
 
+                <p>
+                    Over the past few years, I've worked on projects ranging from predictive analytics and business
+                    intelligence to large language models, healthcare AI, and forecasting. What excites me most
+                    isn't just building models—it's understanding the business problem first, asking the right
+                    questions, and creating solutions that people can actually use.
+                </p>
+
+                <p>
+                    I enjoy working across the analytics lifecycle, from exploring raw data and engineering features
+                    to developing models, designing dashboards, and communicating insights to technical and
+                    non-technical stakeholders.
+                </p>
+
+                <p class="about-closing">
+                    I'm always excited to collaborate on innovative work in
+                    <strong>Data Science</strong>,
+                    <strong>Machine Learning</strong>,
+                    <strong>Generative AI</strong>, and
+                    <strong>Analytics</strong>.
+                </p>
+
+                <div class="about-highlights">
                     <div class="highlight-card">
                         <h3>Problem Solver</h3>
                         <p>I enjoy breaking down complex business challenges into data-driven solutions.</p>
                     </div>
-                
+
                     <div class="highlight-card">
                         <h3>AI Explorer</h3>
                         <p>Continuously experimenting with machine learning, LLMs, and emerging AI technologies.</p>
                     </div>
-                
+
                     <div class="highlight-card">
                         <h3>Impact Focused</h3>
                         <p>Building solutions that are accurate, scalable, and meaningful for end users.</p>
                     </div>
-                
                 </div>
 
-                    <div class="tab-titles">
-                        <button class="tab-links active-link" onclick="opentab(event, 'skills')" type="button">
-                            <i class="fas fa-code"></i> Core Expertise
-                        </button>
-                        <button class="tab-links" onclick="opentab(event, 'fulltime')" type="button">
-                            <i class="fas fa-briefcase"></i> Full-Time & Research
-                        </button>
-                        <button class="tab-links" onclick="opentab(event, 'internships')" type="button">
-                            <i class="fas fa-laptop-code"></i> Internships
-                        </button>
-                        <button class="tab-links" onclick="opentab(event, 'education')" type="button">
-                            <i class="fas fa-graduation-cap"></i> Education
-                        </button>
-                    </div>
+                <div class="tab-titles">
+                    <button class="tab-links active-link" onclick="opentab(event, 'skills')" type="button">
+                        <i class="fas fa-code"></i> Core Expertise
+                    </button>
 
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Languages:</span> Python, SQL, R, Java</li>
-                            <li><span>Machine Learning & AI:</span> Scikit-learn, TensorFlow, NLP, LLMs, RAG, RAFT, Hugging Face</li>
-                            <li><span>Analytics & Experimentation:</span> A/B Testing, Hypothesis Testing, Forecasting, Statistical Modeling, KPI Development</li>
-                            <li><span>Data & BI:</span> Pandas, NumPy, Tableau, Power BI, Data Modeling, Dashboarding</li>
-                            <li><span>Cloud & Tools:</span> AWS, BigQuery, Git, Jupyter Notebook, VS Code</li>
-                            <li><span>Collaboration:</span> Stakeholder Communication, Cross-Functional Partnership, Business Problem Solving</li>
-                        </ul>
-                    </div>
+                    <button class="tab-links" onclick="opentab(event, 'experience')" type="button">
+                        <i class="fas fa-briefcase"></i> Experience
+                    </button>
 
-                    <div class="tab-contents" id="fulltime">
-                        <ul>
-                            <li>
-                                <span>2025 – Present</span><br />
-                                <strong>Data Scientist — KGS Technology Group</strong><br />
-                                Designed and deployed production-grade machine learning models using Python and SQL to support data-driven decision-making across cross-functional teams. Built scalable ETL pipelines for structured and unstructured data, improving data quality and processing efficiency. Developed KPI dashboards in Tableau and Power BI to deliver actionable business insights.
-                            </li>
+                    <button class="tab-links" onclick="opentab(event, 'education')" type="button">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </button>
+                </div>
 
-                            <li>
-                                <span>2024</span><br />
-                                <strong>Graduate Research Assistant — University of North Texas</strong><br />
-                                Conducted research on domain-specific LLM adaptation using RAFT, RAG, and fine-tuning techniques with Mistral-7B and LLaMA-2. Built and optimized LLM pipelines for clinical summarization, improving evaluation accuracy and scalability across multiple model configurations. Established reproducible experimentation workflows to strengthen benchmarking and research rigor.
-                            </li>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages:</span> Python, SQL, R, Java</li>
+                        <li><span>Machine Learning:</span> Scikit-learn, TensorFlow, Regression, Classification, Forecasting</li>
+                        <li><span>AI & NLP:</span> LLMs, RAG, RAFT, Hugging Face, Prompt Engineering</li>
+                        <li><span>Analytics & BI:</span> Power BI, Tableau, Excel, KPI Dashboards, A/B Testing</li>
+                        <li><span>Data Engineering:</span> ETL Pipelines, Data Modeling, BigQuery, AWS</li>
+                    </ul>
+                </div>
 
-                            <li>
-                                <span>2021</span><br />
-                                <strong>Full Stack Developer (Data Team) - Volansys Technologies (AN ACL DIGITAL)</strong><br />
-                                Developed and enhanced web applications using Python, Flask, ReactJS, and JavaScript while collaborating with cross-functional teams in an Agile environment. Built and tested REST APIs, performed data cleaning and exploratory data analysis (EDA), and contributed to data-driven application features. Created multiple mini-projects focused on analytics, data processing, and user experience optimization. Improved application performance through debugging, testing, and code reviews while leveraging Git for version control.
-                            </li>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>2026 – Present</span><br />
+                            <strong>Data Analyst — Spacebar Tech Solutions</strong><br />
+                            Building analytics solutions, KPI dashboards, and reporting workflows to support business decisions.
+                        </li>
 
-                            <li>
-                                <span>2021 – 2023</span><br />
-                                <strong>Business Strategy & Analytics Consultant — John Dree</strong><br />
-                                Founded and led a data-driven analytics practice, developing forecasting models and KPI dashboards that improved revenue visibility by 25%+. Analyzed large-scale sales and operational datasets to identify key business drivers, increasing retention and operational efficiency by 15–20%. Standardized reporting frameworks and led cross-functional initiatives across 50+ stakeholders.
-                            </li>
+                        <li>
+                            <span>2025 – 2026</span><br />
+                            <strong>Data Scientist — KGS Technologies</strong><br />
+                            Developed machine learning, forecasting, experimentation, and ETL solutions for data-driven problems.
+                        </li>
 
-                            <li>
-                                <span>2020 – 2021</span><br />
-                                <strong>Data Analyst — BIT Infotech</strong><br />
-                                Applied Python, SQL, and machine learning techniques to analyze structured and unstructured datasets, generate insights, and support business decisions. Built dashboards and reporting solutions that improved visibility into operational performance and enabled more effective decision-making.
-                            </li>
-                        </ul>
-                    </div>
+                        <li>
+                            <span>2024</span><br />
+                            <strong>Graduate Research Assistant — University of North Texas</strong><br />
+                            Explored LLM adaptation, RAG, RAFT, fine-tuning, and evaluation workflows for clinical AI applications.
+                        </li>
 
-                    <div class="tab-contents" id="internships">
-                        <ul>
-                            <li>
-                                <span>2022</span><br />
-                                <strong>Data Science Intern — Corizo</strong><br />
-                                Built predictive models and improved data workflows to support business insights, increasing data accuracy and processing efficiency by approximately 15%.
-                            </li>
+                        <li>
+                            <span>2020 – 2023</span><br />
+                            <strong>Business Strategy & Analytics Consultant — BIT Infotech / John Deere Projects</strong><br />
+                            Worked on analytics, dashboards, predictive modeling, and business strategy solutions.
+                        </li>
 
-                            <li>
-                                <span>2022</span><br />
-                                <strong>ASP.NET Developer Intern — Dots & Coms</strong><br />
-                                Built and maintained web applications using ASP.NET, ensuring scalability, performance optimization, and reliable client-side integration for business solutions.
-                            </li>
+                        <li>
+                            <span>2021</span><br />
+                            <strong>Trainee Engineer — Volansys Technologies</strong><br />
+                            Built full-stack applications, REST APIs, SQL workflows, and data-driven software features.
+                        </li>
+                    </ul>
+                </div>
 
-                            <li>
-                                <span>2021</span><br />
-                                <strong>Data Science Intern — Brainy Beams Pvt. Ltd.</strong><br />
-                                Performed exploratory data analysis and built machine learning models on large datasets, delivering insights that improved client operations and reporting efficiency.
-                            </li>
-                        </ul>
-                    </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>2023 – 2025</span><br />
+                            <strong>Master of Science in Data Science</strong><br />
+                            University of North Texas — Denton, TX
+                        </li>
 
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li>
-                                <span>2023 – 2025</span><br />
-                                <strong>Master of Science in Data Science</strong><br />
-                                University of North Texas — Denton, TX
-                            </li>
-
-                            <li>
-                                <span>2018 – 2022</span><br />
-                                <strong>Bachelor of Engineering in Information Technology</strong><br />
-                                Gujarat Technological University — Gujarat, India
-                            </li>
-                        </ul>
-                    </div>
+                        <li>
+                            <span>2018 – 2022</span><br />
+                            <strong>Bachelor of Engineering in Information Technology</strong><br />
+                            Gujarat Technological University — Gujarat, India
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Projects -->
-    <section id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Featured Projects</h1>
-            <p class="section-intro">
-                A selection of projects across LLM evaluation, NLP, forecasting, analytics, and applied machine learning.
-            </p>
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Featured Projects</h1>
 
-            <div class="work-list">
-                <div class="project">
-                    <div class="project-image">
-                        <img src="images/work-4.png" alt="MedEval project" />
-                    </div>
-                    <div class="project-overlay">
-                        <h3>MedEval: LLM-Based Clinical Summarization</h3>
-                        <p>
-                            Built a GPT-based evaluation pipeline using Mistral-7B and LLaMA-2 with RAG, Chain-of-Thought prompting, and G-Eval. Benchmarked clinical summary quality using ROUGE and BLEU for scalable evaluation workflows.
-                        </p>
-                        <a href="https://github.com/Drashti30/Med-Eval" target="_blank" class="project-btn">View Code</a>
-                    </div>
+        <p class="section-intro">
+            A selection of projects across LLM evaluation, NLP, forecasting, analytics, and applied machine learning.
+        </p>
+
+        <div class="work-list">
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/work-4.png" alt="MedEval project" />
                 </div>
-
-                <div class="project">
-                    <div class="project-image">
-                        <img src="images/work-1.png" alt="IMDb Sentiment Analysis project" />
-                    </div>
-                    <div class="project-overlay">
-                        <h3>IMDb Sentiment Analysis</h3>
-                        <p>
-                            Developed NLP-based sentiment classification models using Python and Scikit-learn, achieving 85% accuracy through preprocessing, feature engineering, and model optimization.
-                        </p>
-                        <a href="https://github.com/Drashti30/imdb-sentiment-analyzer" target="_blank" class="project-btn">View Code</a>
-                    </div>
+                <div class="project-overlay">
+                    <h3>MedEval: LLM-Based Clinical Summarization</h3>
+                    <p>
+                        Built an LLM evaluation framework using Mistral-7B, LLaMA-2, RAG, G-Eval, ROUGE, and BLEU
+                        to evaluate clinical summarization quality.
+                    </p>
+                    <a href="https://github.com/Drashti30/Med-Eval" target="_blank" class="project-btn">View Code</a>
                 </div>
+            </div>
 
-                <div class="project">
-                    <div class="project-image">
-                        <img src="images/work-2.png" alt="Predictive Financial Analysis project" />
-                    </div>
-                    <div class="project-overlay">
-                        <h3>Predictive Financial Analysis</h3>
-                        <p>
-                            Built time-series forecasting models and KPI dashboards to simulate financial trends, improving prediction accuracy and enabling real-time performance monitoring.
-                        </p>
-                        <a href="https://github.com/Drashti30/FinanceApp" target="_blank" class="project-btn">View Code</a>
-                    </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/work-1.png" alt="IMDb Sentiment Analysis project" />
                 </div>
-
-                <div class="project">
-                    <div class="project-image">
-                        <img src="images/work-3.png" alt="Lifestyle Determinants of Obesity project" />
-                    </div>
-                    <div class="project-overlay">
-                        <h3>Lifestyle Determinants of Obesity</h3>
-                        <p>
-                            Analyzed 2,000+ records using Python and Tableau to identify key lifestyle and demographic drivers of obesity, generating insights relevant to public health decision-making.
-                        </p>
-                        <a
-                            href="https://github.com/Drashti30/Lifestyle-Determinants-of-Obesity-A-Detailed-Analysis-Using-Synthetic-Data"
-                            target="_blank"
-                            class="project-btn"
-                        >
-                            View Project
-                        </a>
-                    </div>
+                <div class="project-overlay">
+                    <h3>IMDb Sentiment Analysis</h3>
+                    <p>
+                        Developed NLP sentiment classification models using Python and Scikit-learn with preprocessing,
+                        feature engineering, and model optimization.
+                    </p>
+                    <a href="https://github.com/Drashti30/imdb-sentiment-analyzer" target="_blank" class="project-btn">View Code</a>
                 </div>
+            </div>
 
-                <div class="project">
-                    <div class="project-image">
-                        <img src="images/work-5.png" alt="Dynamic Pricing Strategy project" />
-                    </div>
-                    <div class="project-overlay">
-                        <h3>Dynamic Pricing Strategy</h3>
-                        <p>
-                            Designed a machine learning-based dynamic pricing framework to optimize product pricing using customer behavior, market conditions, and competitor trends.
-                        </p>
-                    </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/work-2.png" alt="Predictive Financial Analysis project" />
                 </div>
+                <div class="project-overlay">
+                    <h3>Predictive Financial Analysis</h3>
+                    <p>
+                        Built forecasting models and interactive dashboards to analyze financial trends and support
+                        data-driven decision-making.
+                    </p>
+                    <a href="https://github.com/Drashti30/FinanceApp" target="_blank" class="project-btn">View Code</a>
+                </div>
+            </div>
 
-                <div class="project">
-                    <div class="project-image">
-                        <img src="images/work-6.png" alt="Weather Prediction Using Regression Models project" />
-                    </div>
-                    <div class="project-overlay">
-                        <h3>Weather Prediction Using Regression Models</h3>
-                        <p>
-                            Built regression-based forecasting models to predict temperature trends and improve data-driven insight extraction through exploratory analysis and model evaluation.
-                        </p>
-                    </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/work-3.png" alt="Lifestyle Determinants of Obesity project" />
+                </div>
+                <div class="project-overlay">
+                    <h3>Lifestyle Determinants of Obesity</h3>
+                    <p>
+                        Analyzed 2,000+ healthcare records using Python and Tableau to identify lifestyle and demographic
+                        drivers of obesity.
+                    </p>
+                    <a href="https://github.com/Drashti30/Lifestyle-Determinants-of-Obesity-A-Detailed-Analysis-Using-Synthetic-Data" target="_blank" class="project-btn">
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/work-5.png" alt="Dynamic Pricing Strategy project" />
+                </div>
+                <div class="project-overlay">
+                    <h3>Dynamic Pricing Strategy</h3>
+                    <p>
+                        Designed a machine learning-based pricing framework using customer behavior, market conditions,
+                        and competitor trends.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/work-6.png" alt="Weather Prediction project" />
+                </div>
+                <div class="project-overlay">
+                    <h3>Weather Prediction Using Regression Models</h3>
+                    <p>
+                        Built regression-based forecasting models to predict weather trends and improve insight extraction
+                        through exploratory data analysis.
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <h1 class="sub-title">Let’s Connect</h1>
-            <p class="section-intro">
-                I’m open to data science, machine learning, analytics, and AI-focused opportunities.
-            </p>
+<section id="contact">
+    <div class="container">
+        <h1 class="sub-title">Let’s Connect</h1>
 
-            <div class="contact-details">
-                <p><i class="fas fa-map-marker-alt"></i> Denton, TX • Open to Relocation</p>
-                <p><i class="fas fa-phone-alt"></i> +1 (940) 843-9280</p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:mdrashti143@gmail.com">mdrashti143@gmail.com</a></p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mehtadrashti/" target="_blank">LinkedIn</a></p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/Drashti30" target="_blank">GitHub</a></p>
-                <p><i class="fas fa-globe"></i> <a href="https://drashti-mehta-portfolio.netlify.app/" target="_blank">Portfolio</a></p>
-            </div>
+        <p class="section-intro">
+            I’m open to data science, machine learning, analytics, and AI-focused opportunities.
+        </p>
 
-            <div class="resume-download">
-                <a href="images/RESUME_DRASHTI_MEHTA.pdf" download class="btn btn-primary">Download Resume</a>
-            </div>
+        <div class="contact-details">
+            <p><i class="fas fa-map-marker-alt"></i> Denton, TX • Open to Relocation</p>
+            <p><i class="fas fa-phone-alt"></i> +1 (940) 843-9280</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:mdrashti143@gmail.com">mdrashti143@gmail.com</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mehtadrashti/" target="_blank">LinkedIn</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/Drashti30" target="_blank">GitHub</a></p>
+            <p><i class="fas fa-globe"></i> <a href="https://drashti-mehta-portfolio.netlify.app/" target="_blank">Portfolio</a></p>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container footer-content">
-            <p>&copy; 2026 Drashti Miteshkumar Mehta. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/mehtadrashti/" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/Drashti30" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="mailto:mdrashti143@gmail.com" aria-label="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
+        <div class="resume-download">
+            <a href="images/RESUME_DRASHTI_MEHTA.pdf" download class="btn btn-primary">Download Resume</a>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <!-- Back to Top -->
-    <button class="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+<footer id="footer">
+    <div class="container footer-content">
+        <p>&copy; 2026 Drashti Miteshkumar Mehta. All rights reserved.</p>
 
-    <script>
-        const roles = [
-            "Data Scientist",
-            "Machine Learning Engineer",
-            "LLM & NLP Specialist",
-            "Data Analyst",
-            "Full Stack Developer"
-        ];
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mehtadrashti/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
 
-        const roleElement = document.getElementById("dynamic-roles");
-        let currentRoleIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
+            <a href="https://github.com/Drashti30" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
 
-        function typeRoles() {
-            const currentRole = roles[currentRoleIndex];
+            <a href="mailto:mdrashti143@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</footer>
 
-            if (isDeleting) {
-                roleElement.textContent = currentRole.substring(0, charIndex--);
-            } else {
-                roleElement.textContent = currentRole.substring(0, charIndex++);
-            }
+<button class="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
 
-            if (!isDeleting && charIndex === currentRole.length) {
-                isDeleting = true;
-                setTimeout(typeRoles, 1200);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                currentRoleIndex = (currentRoleIndex + 1) % roles.length;
-                setTimeout(typeRoles, 400);
-            } else {
-                setTimeout(typeRoles, isDeleting ? 45 : 85);
-            }
+<script>
+    const roles = [
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "AI & NLP Enthusiast",
+        "Data Analyst",
+        "Business Intelligence Developer"
+    ];
+
+    const roleElement = document.getElementById("dynamic-roles");
+    let currentRoleIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeRoles() {
+        const currentRole = roles[currentRoleIndex];
+
+        if (isDeleting) {
+            roleElement.textContent = currentRole.substring(0, charIndex--);
+        } else {
+            roleElement.textContent = currentRole.substring(0, charIndex++);
         }
 
-        document.addEventListener("DOMContentLoaded", () => {
-            typeRoles();
+        if (!isDeleting && charIndex === currentRole.length) {
+            isDeleting = true;
+            setTimeout(typeRoles, 1200);
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+            setTimeout(typeRoles, 400);
+        } else {
+            setTimeout(typeRoles, isDeleting ? 45 : 85);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        typeRoles();
+    });
+
+    const tablinks = document.getElementsByClassName("tab-links");
+    const tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(evt, tabname) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        evt.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    const sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-260px";
+    }
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
         });
+    }
 
-        const tablinks = document.getElementsByClassName("tab-links");
-        const tabcontents = document.getElementsByClassName("tab-contents");
+    window.addEventListener("scroll", () => {
+        const button = document.querySelector(".back-to-top");
 
-        function opentab(evt, tabname) {
-            for (let tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-
-            for (let tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-
-            evt.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+        if (window.scrollY > 350) {
+            button.classList.add("show");
+        } else {
+            button.classList.remove("show");
         }
+    });
+</script>
 
-        const sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-
-        function closemenu() {
-            sidemenu.style.right = "-260px";
-        }
-
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }
-
-        window.addEventListener("scroll", () => {
-            const button = document.querySelector(".back-to-top");
-            if (window.scrollY > 350) {
-                button.classList.add("show");
-            } else {
-                button.classList.remove("show");
-            }
-        });
-    </script>
 </body>
 </html>
