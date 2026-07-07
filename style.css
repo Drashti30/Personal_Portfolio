@@ -342,7 +342,25 @@ section {
     color: #ffffff;
     font-size: 1.08rem;
 }
+.about-col-2 h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
+.about-col-2 h2 span {
+    color: #ff7aa8;
+}
+
+.about-closing {
+    font-size: 1.08rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.about-closing strong {
+    color: #ff7aa8;
+}
 /* Projects */
 #portfolio {
     background: #0b0f19;
